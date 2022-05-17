@@ -1,1 +1,1 @@
-gnatmake hello.adb
+gnatmake $1 -o $2
