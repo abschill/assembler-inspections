@@ -1,0 +1,6 @@
+REF INT li = LOC INT;
+
+[]REF INT z = (li, LOC INT, LOC INT, li);
+z[1] := 42;
+print(z[1]);
+print(newline)
