@@ -4,6 +4,7 @@ Compilation can involve up to four stages: preprocessing, compilation proper, as
 
 For a given file, the file suffix determines what kind of compilation is done:
 
+## Extension defaults
 
 `file.c`
 
@@ -99,3 +100,5 @@ assembler code that must be preprocessed
 
 `other`
 an object file to be fed straight to linking, any file name with no recognized suffix is  treated this way.
+
+
